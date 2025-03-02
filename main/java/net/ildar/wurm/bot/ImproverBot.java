@@ -312,6 +312,7 @@ public class ImproverBot extends Bot {
                         || message.contains("dipping it in water")
                         || message.contains("doesn't need repairing")
                         || message.contains("You repair the"),
+                        || message.contains("You need to polish the"),
                 () -> improveActionFinished = true);
     }
 
